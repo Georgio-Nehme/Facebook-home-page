@@ -1,0 +1,46 @@
+
+body { 
+    background-color: rgb(187, 201, 226);  
+    align-content: center;
+    font-size: 14px;
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    border-style: 20px solid;
+    border-color: black;
+    margin: 100px;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.container > .text > h1 {
+    color:rgb(36, 113, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+.container > .login {
+    background-color: white;
+    border-radius: 5px;
+    padding:10px;
+}
+
+
+.container > .login > .input {
+    margin:20px;
+    border: 1px solid;
+    border-color: #000;
+    border-radius: 5px;
+    height:30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container > .login {
+    margin:20px;
+    justify-content: center;
+    align-items: center;
+}
