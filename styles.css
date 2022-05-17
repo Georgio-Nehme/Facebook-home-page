@@ -8,12 +8,16 @@ body {
 .container {
     display:flex;
     flex-wrap: wrap;
-    border-style: 20px solid;
-    border-color: black;
     margin: 100px;
     align-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
+.container > .text {
+    width: 40%;
+
+}
+
+
 
 .container > .text > h1 {
     color:rgb(36, 113, 255);
@@ -22,6 +26,7 @@ body {
 }
 
 .container > .login {
+    width: 40%;
     background-color: white;
     border-radius: 5px;
     padding:10px;
