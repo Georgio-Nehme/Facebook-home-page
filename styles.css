@@ -1,51 +1,84 @@
 
 body { 
-    background-color: rgb(187, 201, 226);  
-    align-content: center;
-    font-size: 14px;
+    width:100%;
+    height:100%;
+    margin:0;
 }
 
-.container {
-    display:flex;
+.main {
+    display: flex;
     flex-wrap: wrap;
-    margin: 100px;
+    background-color: rgb(192, 202, 221);
+    height: 90vh;
+    margin: 0 0 10px;
     align-content: center;
-    justify-content: space-around;
-}
-.container > .text {
-    width: 40%;
-
+    justify-content: center;
 }
 
+.container_1 {
+    width: 33.33%;
+    margin-top: 3%;
+    align-items: center;
+    justify-content: center;
+}
 
-
-.container > .text > h1 {
+.container_1 > h1 {
     color:rgb(36, 113, 255);
+    font-size: 54px;
     justify-content: center;
     align-items: center;
 }
 
-.container > .login {
-    width: 40%;
-    background-color: white;
+
+.container_2  {
+    background-color: #fff;
+    width:35%;
     border-radius: 5px;
     padding:10px;
+    text-align: center;
 }
 
-
-.container > .login > .input {
-    margin:20px;
-    border: 1px solid;
-    border-color: #000;
+input {
+    width: 90%;
+    display:flex;
+    align-content: center;
+    padding: 15px;
+    color:rgb(185, 185, 185);
     border-radius: 5px;
-    height:30px;
-    justify-content: center;
-    align-items: center;
+    border-color: rgb(199, 199, 199);
+    margin-top: 5px;
+
 }
 
+.change_pass {
+    margin:2px 0 2px 0;  
+    font-style: none; 
+}
 
-.container > .login {
-    margin:20px;
-    justify-content: center;
-    align-items: center;
+.login {
+    margin:5px 0 0 0 ;
+    align-content: center;
+    background-color: rgb(70, 119, 255);
+    color:white;
+    border:none;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+
+}
+
+.create {
+    margin:15px;
+    align-content: center;
+    background-color: rgb(36, 212, 36);
+    color:white;
+    border:none;
+    border-radius: 10px;
+    width: 50%;
+    height: 35px;
+
+
+}
+a:link {
+    text-decoration: none;
 }
